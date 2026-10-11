@@ -9,15 +9,14 @@ const arr=(j:any):any[]=>Array.isArray(j)?j:j?.data??j?.products??j?.categories?
 const UNITS:Record<string,string>={kg:"প্রতি কেজি",litre:"প্রতি লিটার",liter:"প্রতি লিটার",l:"প্রতি লিটার",dozen:"প্রতি ডজন",piece:"প্রতি পিস",pcs:"প্রতি পিস",hali:"প্রতি হালি"};
 export function normProduct(p:any):Product{
   const markets:Market[]=(p.markets??[]).map((m:any)=>({name:m.market,division:m.division,min:Number(m.min),max:Number(m.max),price:Math.round((Number(m.min)+Number(m.max))/2)}));
-  const pctV=Number(p.change?.pct??0);
-  const change=p.change?.dir==="up"?pctV:p.change?.dir==="down"?-pctV:0;
+ const change=Number(p.change?.pct??0);
   return {id:String(p.id),slug:String(p.slug??p.id),name:p.nameBn,emoji:p.image??p.categoryIcon??"🛒",
     unit:UNITS[String(p.unit).toLowerCase()]??("প্রতি "+p.unit),price:Number(p.today),change,
     category:p.categoryNameBn??p.category??"",description:"",markets,
     min:markets.length?Math.min(...markets.map(m=>m.min)):Number(p.today),
     max:markets.length?Math.max(...markets.map(m=>m.max)):Number(p.today),
     avg:markets.length?Math.round(markets.reduce((a,m)=>a+m.price,0)/markets.length):Number(p.today)};
-}
+} 
 export const normCat=(c:any):Category=>({slug:String(c.slug??c.id),name:c.nameBn??c.name_bn??c.name??c.title,emoji:c.emoji??c.icon??"🛒"});
 async function get(path:string){
   for(const base of [API,ALT]){ try{const r=await fetch(base+path);if(r.ok)return await r.json();}catch{} }
