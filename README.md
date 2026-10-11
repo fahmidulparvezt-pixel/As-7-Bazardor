@@ -2,8 +2,7 @@
 
 প্রয়োজনীয় পণ্যের দৈনিক বাজার দর এক নজরে — চাল, ডাল, সবজি, মাছ, মাংস ও আরও অনেক কিছু।
 
-**Live:** _add link_ · **Repo:** _add link_
-
+**Live:** https://as-7-bazardor.vercel.app · **Repo:**https://github.com/fahmidulparvezt-pixel/As-7-Bazardor
 ## Technologies
 Next.js (App Router) · TypeScript · Tailwind CSS · DaisyUI · BetterAuth · MongoDB · react-hot-toast
 
