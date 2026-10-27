@@ -11,9 +11,16 @@ BazarDor is a web application designed to make everyday market price information
 
 **💻 Repository:** https://github.com/fahmidulparvezt-pixel/As-7-Bazardor
 
-## Technologies
-Next.js (App Router) · TypeScript · Tailwind CSS · DaisyUI · BetterAuth · MongoDB · react-hot-toast
+## 🛠️ Tech Stack
 
+- **Framework:** Next.js
+- **Frontend Library:** React
+- **Language:** JavaScript / TypeScript
+- **Styling:** Tailwind CSS
+- **UI Components:** DaisyUI
+- **Data Fetching:** Fetch API
+- **Notifications:** React Hot Toast
+- **Deployment:** Vercel
 
 ## ✨ Key Features
 
