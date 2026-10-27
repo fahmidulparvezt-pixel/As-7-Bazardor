@@ -33,9 +33,45 @@ BazarDor is a web application designed to make everyday market price information
 - **Clean User Interface:** Navigate the application through a simple and intuitive layout.
 
 
-## Run locally
-```bash
-npm install
-cp .env.example .env.local   # fill values
-npm run dev
-```
+## 🚀 Run Locally
+
+### Prerequisites
+
+- Node.js
+- npm
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/fahmidulparvezt-pixel/As-7-Bazardor.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd As-7-Bazardor
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Configure environment variables if required by the project:
+
+   ```bash
+   cp .env.example .env.local
+   ```
+
+   Fill in the required values in `.env.local`.
+
+5. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+6. Open [http://localhost:3000](http://localhost:3000) in your browser.
