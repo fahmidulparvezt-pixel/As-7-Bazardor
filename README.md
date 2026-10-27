@@ -24,13 +24,13 @@ BazarDor is a web application designed to make everyday market price information
 
 ## ✨ Key Features
 
-- **Product Price Listings:** Browse prices of essential everyday products.
-- **Category-Based Filtering:** Filter products by categories such as rice, lentils, vegetables, fish, and meat.
-- **Product Details:** View detailed information about individual products.
-- **Category Navigation:** Explore available product categories easily.
-- **Responsive Design:** Enjoy a user-friendly experience on mobile, tablet, and desktop devices.
-- **Dynamic Data Fetching:** Retrieve product and category data from the API.
-- **Clean User Interface:** Navigate the application through a simple and intuitive layout.
+- Browse products with a clean and user-friendly interface
+- Explore products by category
+- View individual product details
+- Filter products by category
+- Fetch product and category data from an API
+- Responsive layout for mobile, tablet, and desktop devices
+- Simple navigation for a smooth browsing experience
 
 
 ## 🚀 Run Locally
