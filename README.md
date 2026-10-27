@@ -1,8 +1,16 @@
-# 🛒 বাজার দর (BazarDor)
 
-প্রয়োজনীয় পণ্যের দৈনিক বাজার দর এক নজরে — চাল, ডাল, সবজি, মাছ, মাংস ও আরও অনেক কিছু।
+# 🛒 BazarDor — বাজার দর
 
-**Live:** https://as-7-bazardor.vercel.app · **Repo:**https://github.com/fahmidulparvezt-pixel/As-7-Bazardor
+### Your Everyday Market Price Guide
+
+Explore essential grocery and food prices in one place, including rice, lentils, vegetables, fish, and meat.
+
+BazarDor is a web application designed to make everyday market price information easier to explore through a clean, responsive interface.
+
+**🌐 Live Demo:** https://as-7-bazardor.vercel.app
+
+**💻 Repository:** https://github.com/fahmidulparvezt-pixel/As-7-Bazardor
+
 ## Technologies
 Next.js (App Router) · TypeScript · Tailwind CSS · DaisyUI · BetterAuth · MongoDB · react-hot-toast
 
