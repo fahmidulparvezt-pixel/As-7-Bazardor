@@ -75,3 +75,17 @@ BazarDor is a web application designed to make everyday market price information
    ```
 
 6. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+
+   ## 📁 Project Structure
+
+```text
+As-7-Bazardor/
+├── public/          # Static assets
+├── src/             # Application source code (if present)
+├── package.json     # Dependencies and scripts
+├── package-lock.json
+└── README.md        # Project documentation
+```
+
+
