@@ -14,12 +14,17 @@ BazarDor is a web application designed to make everyday market price information
 ## Technologies
 Next.js (App Router) · TypeScript · Tailwind CSS · DaisyUI · BetterAuth · MongoDB · react-hot-toast
 
-## Key Features
-1. লাইভ প্রাইস টিকার (infinite marquee) ও বাংলা তারিখ সহ নেভবার
-2. আজ দাম বাড়া/কমা Top 6 পণ্য এবং সব পণ্যের responsive grid
-3. ক্যাটাগরি পেজে সর্টিং (ডিফল্ট / কম→বেশি / বেশি→কম), skeleton loading ও empty state
-4. BetterAuth দিয়ে Email/Password, Google ও GitHub লগইন; protected product detail page
-5. বাজারভিত্তিক দাম (min / max / avg) এবং প্রোফাইল আপডেট ফিচার
+
+## ✨ Key Features
+
+- **Product Price Listings:** Browse prices of essential everyday products.
+- **Category-Based Filtering:** Filter products by categories such as rice, lentils, vegetables, fish, and meat.
+- **Product Details:** View detailed information about individual products.
+- **Category Navigation:** Explore available product categories easily.
+- **Responsive Design:** Enjoy a user-friendly experience on mobile, tablet, and desktop devices.
+- **Dynamic Data Fetching:** Retrieve product and category data from the API.
+- **Clean User Interface:** Navigate the application through a simple and intuitive layout.
+
 
 ## Run locally
 ```bash
